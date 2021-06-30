@@ -65,10 +65,10 @@
 				2FC95268268C10EB00E6AA9D /* GFButton.swift */,
 				2FC95264268C01AF00E6AA9D /* SearchVC.swift */,
 				2FC95266268C01DE00E6AA9D /* FavoritesListVC.swift */,
+				2FC9526A268C152800E6AA9D /* GFTextField.swift */,
 				2FC95257268BF1C400E6AA9D /* Assets.xcassets */,
 				2FC95259268BF1C400E6AA9D /* LaunchScreen.storyboard */,
 				2FC9525C268BF1C400E6AA9D /* Info.plist */,
-				2FC9526A268C152800E6AA9D /* GFTextField.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
