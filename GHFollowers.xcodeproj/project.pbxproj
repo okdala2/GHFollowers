@@ -70,22 +70,54 @@
 		2FC9524D268BF1C000E6AA9D /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				2FC9524E268BF1C000E6AA9D /* AppDelegate.swift */,
-				2FC95250268BF1C000E6AA9D /* SceneDelegate.swift */,
-				2FC95268268C10EB00E6AA9D /* GFButton.swift */,
+				2FC95276268DFFEE00E6AA9D /* Controllers */,
+				2FC95277268E003100E6AA9D /* CustomViews */,
+				2FC95278268E006100E6AA9D /* Extensions */,
+				2FC95279268E00D100E6AA9D /* Support */,
+			);
+			path = GHFollowers;
+			sourceTree = "<group>";
+		};
+		2FC95276268DFFEE00E6AA9D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				2FC95264268C01AF00E6AA9D /* SearchVC.swift */,
+				2FC95266268C01DE00E6AA9D /* FavoritesListVC.swift */,
+				2FC9526C268D43E400E6AA9D /* FollowerListVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2FC95277268E003100E6AA9D /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				2FC95272268D518400E6AA9D /* GFAlertVC.swift */,
+				2FC95268268C10EB00E6AA9D /* GFButton.swift */,
 				2FC9526E268D4DF000E6AA9D /* GFTitleLabel.swift */,
 				2FC95270268D509200E6AA9D /* GFBodyLabel.swift */,
-				2FC95272268D518400E6AA9D /* GFAlertVC.swift */,
-				2FC95274268D5D0B00E6AA9D /* ViewController+Ext.swift */,
-				2FC9526C268D43E400E6AA9D /* FollowerListVC.swift */,
-				2FC95266268C01DE00E6AA9D /* FavoritesListVC.swift */,
 				2FC9526A268C152800E6AA9D /* GFTextField.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		2FC95278268E006100E6AA9D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2FC95274268D5D0B00E6AA9D /* ViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2FC95279268E00D100E6AA9D /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				2FC95250268BF1C000E6AA9D /* SceneDelegate.swift */,
+				2FC9524E268BF1C000E6AA9D /* AppDelegate.swift */,
 				2FC95257268BF1C400E6AA9D /* Assets.xcassets */,
 				2FC95259268BF1C400E6AA9D /* LaunchScreen.storyboard */,
 				2FC9525C268BF1C400E6AA9D /* Info.plist */,
 			);
-			path = GHFollowers;
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
