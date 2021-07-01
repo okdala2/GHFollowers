@@ -18,6 +18,8 @@
 		2FC9526D268D43E400E6AA9D /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9526C268D43E400E6AA9D /* FollowerListVC.swift */; };
 		2FC9526F268D4DF000E6AA9D /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9526E268D4DF000E6AA9D /* GFTitleLabel.swift */; };
 		2FC95271268D509300E6AA9D /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC95270268D509200E6AA9D /* GFBodyLabel.swift */; };
+		2FC95273268D518400E6AA9D /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC95272268D518400E6AA9D /* GFAlertVC.swift */; };
+		2FC95275268D5D0B00E6AA9D /* ViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC95274268D5D0B00E6AA9D /* ViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		2FC9526C268D43E400E6AA9D /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		2FC9526E268D4DF000E6AA9D /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		2FC95270268D509200E6AA9D /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
+		2FC95272268D518400E6AA9D /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
+		2FC95274268D5D0B00E6AA9D /* ViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				2FC95264268C01AF00E6AA9D /* SearchVC.swift */,
 				2FC9526E268D4DF000E6AA9D /* GFTitleLabel.swift */,
 				2FC95270268D509200E6AA9D /* GFBodyLabel.swift */,
+				2FC95272268D518400E6AA9D /* GFAlertVC.swift */,
+				2FC95274268D5D0B00E6AA9D /* ViewController+Ext.swift */,
 				2FC9526C268D43E400E6AA9D /* FollowerListVC.swift */,
 				2FC95266268C01DE00E6AA9D /* FavoritesListVC.swift */,
 				2FC9526A268C152800E6AA9D /* GFTextField.swift */,
@@ -155,6 +161,8 @@
 				2FC95267268C01DE00E6AA9D /* FavoritesListVC.swift in Sources */,
 				2FC95269268C10EB00E6AA9D /* GFButton.swift in Sources */,
 				2FC95265268C01AF00E6AA9D /* SearchVC.swift in Sources */,
+				2FC95275268D5D0B00E6AA9D /* ViewController+Ext.swift in Sources */,
+				2FC95273268D518400E6AA9D /* GFAlertVC.swift in Sources */,
 				2FC95271268D509300E6AA9D /* GFBodyLabel.swift in Sources */,
 				2FC9526F268D4DF000E6AA9D /* GFTitleLabel.swift in Sources */,
 				2FC9526D268D43E400E6AA9D /* FollowerListVC.swift in Sources */,
