@@ -79,6 +79,7 @@
 				2FC95277268E003100E6AA9D /* CustomViews */,
 				2FC95278268E006100E6AA9D /* Extensions */,
 				2FC95279268E00D100E6AA9D /* Support */,
+				2FC9525C268BF1C400E6AA9D /* Info.plist */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -120,7 +121,6 @@
 				2FC9524E268BF1C000E6AA9D /* AppDelegate.swift */,
 				2FC95257268BF1C400E6AA9D /* Assets.xcassets */,
 				2FC95259268BF1C400E6AA9D /* LaunchScreen.storyboard */,
-				2FC9525C268BF1C400E6AA9D /* Info.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
