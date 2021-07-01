@@ -17,6 +17,7 @@
 		2FC9526B268C152800E6AA9D /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9526A268C152800E6AA9D /* GFTextField.swift */; };
 		2FC9526D268D43E400E6AA9D /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9526C268D43E400E6AA9D /* FollowerListVC.swift */; };
 		2FC9526F268D4DF000E6AA9D /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9526E268D4DF000E6AA9D /* GFTitleLabel.swift */; };
+		2FC95271268D509300E6AA9D /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC95270268D509200E6AA9D /* GFBodyLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2FC9526A268C152800E6AA9D /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		2FC9526C268D43E400E6AA9D /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		2FC9526E268D4DF000E6AA9D /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
+		2FC95270268D509200E6AA9D /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				2FC95268268C10EB00E6AA9D /* GFButton.swift */,
 				2FC95264268C01AF00E6AA9D /* SearchVC.swift */,
 				2FC9526E268D4DF000E6AA9D /* GFTitleLabel.swift */,
+				2FC95270268D509200E6AA9D /* GFBodyLabel.swift */,
 				2FC9526C268D43E400E6AA9D /* FollowerListVC.swift */,
 				2FC95266268C01DE00E6AA9D /* FavoritesListVC.swift */,
 				2FC9526A268C152800E6AA9D /* GFTextField.swift */,
@@ -152,6 +155,7 @@
 				2FC95267268C01DE00E6AA9D /* FavoritesListVC.swift in Sources */,
 				2FC95269268C10EB00E6AA9D /* GFButton.swift in Sources */,
 				2FC95265268C01AF00E6AA9D /* SearchVC.swift in Sources */,
+				2FC95271268D509300E6AA9D /* GFBodyLabel.swift in Sources */,
 				2FC9526F268D4DF000E6AA9D /* GFTitleLabel.swift in Sources */,
 				2FC9526D268D43E400E6AA9D /* FollowerListVC.swift in Sources */,
 				2FC9524F268BF1C000E6AA9D /* AppDelegate.swift in Sources */,
