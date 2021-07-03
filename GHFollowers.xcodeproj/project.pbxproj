@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F6BD8472690E2FF0056FAF5 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD8462690E2FF0056FAF5 /* GFEmptyStateView.swift */; };
+		2F6BD8492690F5AE0056FAF5 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD8482690F5AE0056FAF5 /* UserInfoVC.swift */; };
 		2FC9524F268BF1C000E6AA9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9524E268BF1C000E6AA9D /* AppDelegate.swift */; };
 		2FC95251268BF1C000E6AA9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC95250268BF1C000E6AA9D /* SceneDelegate.swift */; };
 		2FC95258268BF1C400E6AA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC95257268BF1C400E6AA9D /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		2F6BD8462690E2FF0056FAF5 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		2F6BD8482690F5AE0056FAF5 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		2FC9524B268BF1C000E6AA9D /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC9524E268BF1C000E6AA9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FC95250268BF1C000E6AA9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,7 +140,7 @@
 				2FC95282268E33C600E6AA9D /* Utilities */,
 				2FC9527F268E211E00E6AA9D /* Manager */,
 				2FC9527A268E060200E6AA9D /* New Group */,
-				2FC95276268DFFEE00E6AA9D /* Controllers */,
+				2FC95276268DFFEE00E6AA9D /* Screens */,
 				2FC95277268E003100E6AA9D /* CustomViews */,
 				2FC95278268E006100E6AA9D /* Extensions */,
 				2FC95279268E00D100E6AA9D /* Support */,
@@ -147,14 +149,15 @@
 			path = GHFollowers;
 			sourceTree = "<group>";
 		};
-		2FC95276268DFFEE00E6AA9D /* Controllers */ = {
+		2FC95276268DFFEE00E6AA9D /* Screens */ = {
 			isa = PBXGroup;
 			children = (
 				2FC95266268C01DE00E6AA9D /* FavoritesListVC.swift */,
 				2FC95264268C01AF00E6AA9D /* SearchVC.swift */,
 				2FC9526C268D43E400E6AA9D /* FollowerListVC.swift */,
+				2F6BD8482690F5AE0056FAF5 /* UserInfoVC.swift */,
 			);
-			path = Controllers;
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		2FC95277268E003100E6AA9D /* CustomViews */ = {
@@ -312,6 +315,7 @@
 				2FC9526D268D43E400E6AA9D /* FollowerListVC.swift in Sources */,
 				2FC9524F268BF1C000E6AA9D /* AppDelegate.swift in Sources */,
 				2FC95251268BF1C000E6AA9D /* SceneDelegate.swift in Sources */,
+				2F6BD8492690F5AE0056FAF5 /* UserInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
