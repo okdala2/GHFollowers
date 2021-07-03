@@ -26,6 +26,7 @@
 		2FC95284268E33D300E6AA9D /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC95283268E33D300E6AA9D /* ErrorMessage.swift */; };
 		2FC95287268F58BC00E6AA9D /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC95286268F58BC00E6AA9D /* FollowerCell.swift */; };
 		2FC95289268F593A00E6AA9D /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC95288268F593A00E6AA9D /* GFAvatarImageView.swift */; };
+		2FC9528B26900F7700E6AA9D /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC9528A26900F7700E6AA9D /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		2FC95283268E33D300E6AA9D /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		2FC95286268F58BC00E6AA9D /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		2FC95288268F593A00E6AA9D /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		2FC9528A26900F7700E6AA9D /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,8 @@
 		2FC95276268DFFEE00E6AA9D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2FC95264268C01AF00E6AA9D /* SearchVC.swift */,
 				2FC95266268C01DE00E6AA9D /* FavoritesListVC.swift */,
+				2FC95264268C01AF00E6AA9D /* SearchVC.swift */,
 				2FC9526C268D43E400E6AA9D /* FollowerListVC.swift */,
 			);
 			path = Controllers;
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				2FC95283268E33D300E6AA9D /* ErrorMessage.swift */,
+				2FC9528A26900F7700E6AA9D /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				2FC9526B268C152800E6AA9D /* GFTextField.swift in Sources */,
 				2FC95267268C01DE00E6AA9D /* FavoritesListVC.swift in Sources */,
 				2FC95269268C10EB00E6AA9D /* GFButton.swift in Sources */,
+				2FC9528B26900F7700E6AA9D /* UIHelper.swift in Sources */,
 				2FC95265268C01AF00E6AA9D /* SearchVC.swift in Sources */,
 				2FC95275268D5D0B00E6AA9D /* ViewController+Ext.swift in Sources */,
 				2FC95273268D518400E6AA9D /* GFAlertVC.swift in Sources */,
