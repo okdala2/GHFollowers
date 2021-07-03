@@ -25,7 +25,6 @@ class FollowerListVC: UIViewController {
         configureViewController()
         getFollowers()
         configureDataSource()
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
