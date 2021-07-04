@@ -9,5 +9,8 @@ import Foundation
 
 enum SFSymbols {
     static let location = "mappin.and.ellipse"
+}
+
+enum ImageContants {
     static let placeHolderImage = "avatar-placeholder"
 }

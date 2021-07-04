@@ -12,6 +12,10 @@ class UserInfoVC: UIViewController {
     let headerView = UIView()
     let headerViewController = UIViewController()
     
+    let itemViewOne = UIView()
+    let itemViewTwo = UIView()
+    
+    
     var username: String!
 
     override func viewDidLoad() {
@@ -42,14 +46,34 @@ class UserInfoVC: UIViewController {
     
     func layoutUI() {
         view.addSubview(headerView)
+        view.addSubview(itemViewOne)
+        view.addSubview(itemViewTwo)
+        
         headerView.translatesAutoresizingMaskIntoConstraints = false
+        itemViewOne.translatesAutoresizingMaskIntoConstraints = false
+        itemViewTwo.translatesAutoresizingMaskIntoConstraints = false
+        
+        let padding: CGFloat = 20
+        let itemHeight: CGFloat = 140
+        
+        itemViewOne.backgroundColor = .systemYellow
+        itemViewTwo.backgroundColor = .systemRed
         
         NSLayoutConstraint.activate([
             headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             headerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             headerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            headerView.heightAnchor.constraint(equalToConstant: 180)
+            headerView.heightAnchor.constraint(equalToConstant: 180),
             
+            itemViewOne.topAnchor.constraint(equalTo: headerView.bottomAnchor, constant: padding),
+            itemViewOne.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
+            itemViewOne.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
+            itemViewOne.heightAnchor.constraint(equalToConstant: itemHeight),
+            
+            itemViewTwo.topAnchor.constraint(equalTo: itemViewOne.bottomAnchor, constant: padding),
+            itemViewTwo.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
+            itemViewTwo.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
+            itemViewTwo.heightAnchor.constraint(equalToConstant: itemHeight),
         ])
     }
     
