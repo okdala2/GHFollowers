@@ -9,6 +9,9 @@ import UIKit
 
 class UserInfoVC: UIViewController {
     
+    let headerView = UIView()
+    let headerViewController = UIViewController()
+    
     var username: String!
 
     override func viewDidLoad() {
@@ -31,6 +34,22 @@ class UserInfoVC: UIViewController {
                 break
             }
         }
+        layoutUI()
+    }
+    
+    func layoutUI() {
+        view.addSubview(headerView)
+        headerView.translatesAutoresizingMaskIntoConstraints = false
+        
+        NSLayoutConstraint.activate([
+            headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            headerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            headerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            headerView.heightAnchor.constraint(equalToConstant: 180)
+            
+        ])
+        
+        
     }
     
     
