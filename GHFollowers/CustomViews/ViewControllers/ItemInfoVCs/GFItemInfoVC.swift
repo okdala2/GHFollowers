@@ -9,6 +9,8 @@ import UIKit
 
 class GFItemInfoVC: UIViewController {
     
+    var user: User!
+    
     let stackView = UIStackView()
     let itemInfoViewOne = GFItemInfoView()
     let itemInfoViewTwo = GFItemInfoView()
@@ -21,7 +23,16 @@ class GFItemInfoVC: UIViewController {
         layoutUI()
         configureStackView()
     }
-
+    
+    init(user: User) {
+        super.init(nibName: nil, bundle: nil)
+        self.user = user
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     private func configureBackgroundView() {
         view.layer.cornerRadius = 18
         view.backgroundColor = .secondarySystemBackground
@@ -34,7 +45,6 @@ class GFItemInfoVC: UIViewController {
         
         stackView.addArrangedSubview(itemInfoViewOne)
         stackView.addArrangedSubview(itemInfoViewTwo)
-
     }
     
     private func layoutUI() {
