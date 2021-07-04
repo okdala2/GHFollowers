@@ -139,8 +139,8 @@
 		2F6BD85826915EC80056FAF5 /* ItemInfoVCs */ = {
 			isa = PBXGroup;
 			children = (
-				2F6BD85426915BDF0056FAF5 /* GFRepoItemVC.swift */,
 				2F6BD852269158DB0056FAF5 /* GFItemInfoVC.swift */,
+				2F6BD85426915BDF0056FAF5 /* GFRepoItemVC.swift */,
 				2F6BD85626915E710056FAF5 /* GFFollowerItemVC.swift */,
 			);
 			path = ItemInfoVCs;

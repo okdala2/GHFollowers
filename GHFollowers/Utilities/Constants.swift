@@ -13,7 +13,6 @@ enum SFSymbols {
     static let gists = "text.alignleft"
     static let followers = "heart"
     static let following = "person.2"
-
 }
 
 enum ImageContants {

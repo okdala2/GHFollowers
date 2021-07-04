@@ -19,9 +19,9 @@ class GFItemInfoVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        configureBackgroundView()
         layoutUI()
         configureStackView()
+        configureBackgroundView()
     }
     
     init(user: User) {
@@ -52,6 +52,8 @@ class GFItemInfoVC: UIViewController {
         view.addSubview(actionButton)
         
         stackView.translatesAutoresizingMaskIntoConstraints = false
+        stackView.backgroundColor = .red
+        
         let padding: CGFloat = 20
         
         NSLayoutConstraint.activate([

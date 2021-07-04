@@ -16,6 +16,7 @@ class GFItemInfoView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
+        configure()
     }
     
     required init?(coder: NSCoder) {
@@ -25,7 +26,7 @@ class GFItemInfoView: UIView {
     func set(infoType: ItemInfoType, with count: Int) {
         switch infoType {
         case .repos:
-            symbolImageView.image = UIImage(systemName: SFSymbols.repos)
+            symbolImageView.image = UIImage(systemName: "folder")
             titleLabel.text = "Public Repos"
             break
             
@@ -35,7 +36,7 @@ class GFItemInfoView: UIView {
             break
 
         case .followers:
-            symbolImageView.image = UIImage(systemName: SFSymbols.followers)
+            symbolImageView.image = UIImage(systemName: "folder")
             titleLabel.text = "Followers"
             break
 
