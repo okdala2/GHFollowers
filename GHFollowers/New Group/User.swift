@@ -7,17 +7,18 @@
 
 import Foundation
 
-struct User: Codable, Hashable {
+struct User: Codable {
     
     var login: String?
-    var avatarURL: String?
+    var avatar_url: String?
     var name: String?
     var location: String?
     var bio: String?
-    var pubicRepos: Int?
-    var publicGists: Int?
-    var following: Int?
+    var public_repos: Int?
+    var public_gists: Int?
     var followers: Int?
-    var htmlURL: String?
-    var createdAt: String
+    var following: Int?
+    var html_url: String?
+    var created_at: String?
 }
+

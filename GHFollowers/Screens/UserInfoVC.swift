@@ -54,7 +54,7 @@ class UserInfoVC: UIViewController {
         self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
         self.add(childVC: repoItemVC, to: self.itemViewOne)
         self.add(childVC: followerItemVC, to: self.itemViewTwo)
-        self.dateLabel.text = "GitHub since \(String(describing: user.createdAt.convertToDisplayFormat()))"
+        self.dateLabel.text = "GitHub since \(String(describing: user.created_at!.convertToDisplayFormat()))"
     }
     
     func configureViewController() {
@@ -109,7 +109,7 @@ class UserInfoVC: UIViewController {
 
 extension UserInfoVC: UserInfoVCDelegate {
     func didTapGithubProfile(for user: User) {
-        guard let url = URL(string: user.htmlURL ?? "") else {
+        guard let url = URL(string: user.html_url ?? "") else {
             presentGFAlertOnMainThread(title: "Invalid URL", message: "The url attatched to this user is Invalid.", buttonTitle: "Ok")
             return
         }
