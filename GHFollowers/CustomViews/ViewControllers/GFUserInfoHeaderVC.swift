@@ -21,6 +21,7 @@ class GFUserInfoHeaderVC: UIViewController {
     let padding: CGFloat = 20
     let textImagePadding: CGFloat = 12
    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -39,7 +40,8 @@ class GFUserInfoHeaderVC: UIViewController {
      }
     
     func configureUIElements() {
-        avatarImageView.downloadImage(from: user.avatarURL!)
+        
+        avatarImageView.downloadImage(from: user.avatarURL ?? SFSymbols.placeHolderImage)
         usernameLabel.text = user.login
         nameLabel.text = user.name ?? ""
         locationLabel.text = user.location ?? "No location Available"
@@ -90,10 +92,10 @@ class GFUserInfoHeaderVC: UIViewController {
     
     func configureNameLabel() {
         NSLayoutConstraint.activate([
-            usernameLabel.centerYAnchor.constraint(equalTo: avatarImageView.centerYAnchor, constant: 8),
-            usernameLabel.leadingAnchor.constraint(equalTo: avatarImageView.trailingAnchor, constant: textImagePadding),
-            usernameLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
-            usernameLabel.heightAnchor.constraint(equalToConstant: 20)
+            nameLabel.centerYAnchor.constraint(equalTo: avatarImageView.centerYAnchor, constant: 8),
+            nameLabel.leadingAnchor.constraint(equalTo: avatarImageView.trailingAnchor, constant: textImagePadding),
+            nameLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
+            nameLabel.heightAnchor.constraint(equalToConstant: 20)
         ])
     }
     

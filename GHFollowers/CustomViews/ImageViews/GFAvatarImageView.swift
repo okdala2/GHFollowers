@@ -55,7 +55,6 @@ class GFAvatarImageView: UIImageView {
             self.cache.setObject(image, forKey: cachekey)
             
             DispatchQueue.main.async { self.image = image }
-            
         }
         task.resume()
     }
