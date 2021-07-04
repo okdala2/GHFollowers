@@ -19,5 +19,5 @@ struct User: Codable, Hashable {
     var following: Int?
     var followers: Int?
     var htmlURL: String?
-    var createdAt: String?
+    var createdAt: String
 }

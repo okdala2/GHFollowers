@@ -52,7 +52,6 @@ class GFItemInfoVC: UIViewController {
         view.addSubview(actionButton)
         
         stackView.translatesAutoresizingMaskIntoConstraints = false
-        stackView.backgroundColor = .red
         
         let padding: CGFloat = 20
         
