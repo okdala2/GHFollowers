@@ -26,7 +26,7 @@ class GFItemInfoView: UIView {
     func set(infoType: ItemInfoType, with count: Int) {
         switch infoType {
         case .repos:
-            symbolImageView.image = UIImage(systemName: "folder")
+            symbolImageView.image = UIImage(systemName: SFSymbols.repos)
             titleLabel.text = "Public Repos"
             break
             
@@ -36,7 +36,7 @@ class GFItemInfoView: UIView {
             break
 
         case .followers:
-            symbolImageView.image = UIImage(systemName: "folder")
+            symbolImageView.image = UIImage(systemName: SFSymbols.followers)
             titleLabel.text = "Followers"
             break
 
@@ -54,8 +54,8 @@ class GFItemInfoView: UIView {
         addSubview(countLabel)
         addSubview(titleLabel)
         
-        symbolImageView.adjustsImageSizeForAccessibilityContentSizeCategory = false
-        symbolImageView.contentMode = .scaleAspectFill
+        symbolImageView.translatesAutoresizingMaskIntoConstraints = false
+        symbolImageView.contentMode = .scaleAspectFit
         symbolImageView.tintColor = .label
         
         NSLayoutConstraint.activate([
@@ -73,7 +73,6 @@ class GFItemInfoView: UIView {
             countLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             countLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor),
             countLabel.heightAnchor.constraint(equalToConstant: 18)
-
         ])
     }
 }
