@@ -1,5 +1,5 @@
 //
-//  PersistanceManager.swift
+//  PersistenceManager.swift
 //  GHFollowers
 //
 //  Created by Dala  on 7/4/21.
@@ -7,14 +7,14 @@
 
 import Foundation
 
-enum PersistanceManager {
+enum PersistenceManager {
     static private let defaults = UserDefaults.standard
     
     enum keys {
         static let favorites = "favorites"
     }
     
-    static func updateWith(favorite: Follower, actionType: PersistanceActionType, completed: @escaping (GFError) -> Void ) {
+    static func updateWith(favorite: Follower, actionType: PersistenceActionType, completed: @escaping (GFError) -> Void ) {
         retreiveFavorites { result in
             switch result {
             
@@ -75,7 +75,7 @@ enum PersistanceManager {
     }
 }
 
-enum PersistanceActionType {
+enum PersistenceActionType {
     case add
     case remove
 }
