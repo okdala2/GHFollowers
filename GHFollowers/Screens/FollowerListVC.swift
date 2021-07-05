@@ -52,10 +52,8 @@ class FollowerListVC: UIViewController {
     }
     
     func getFollowers(username: String, page: Int) {
-        ///showLoadingView()
         NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
             guard let self = self else { return }
-           // self.dismissLoadingView()
           
             
             switch result {
@@ -86,7 +84,6 @@ class FollowerListVC: UIViewController {
     }
     
     @objc func addButtonTapped() {
-        showLoadingView()
         NetworkManager.shared.getUserInfo(for: username) { [weak self] result in
             guard let self = self else { return }
             
@@ -98,7 +95,7 @@ class FollowerListVC: UIViewController {
                     guard let self = self else { return }
                     
                     guard let error = error else {
-                        self.presentGFAlertOnMainThread(title: "Success!", message: "You have favortied this user", buttonTitle: "Cool!")
+                        self.presentGFAlertOnMainThread(title: "Success!", message: "You have favortied this user! 🎉 ", buttonTitle: "Cool!")
                         return
                     }
                     

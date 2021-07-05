@@ -52,7 +52,6 @@ extension UIViewController {
             containerView = nil
            
         }
-      
     }
     
     func showEmptyStateView(with message: String, in view: UIView) {
