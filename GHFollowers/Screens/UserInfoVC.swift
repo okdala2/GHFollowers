@@ -7,7 +7,7 @@
 
 import UIKit
 
-class UserInfoVC: UIViewController {
+class UserInfoVC: GFDataLoadingVC {
     
     var username: String!
 
