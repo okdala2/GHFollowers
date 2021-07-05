@@ -19,11 +19,12 @@ enum PersistenceManager {
             switch result {
             
             case .success(let favorites):
+                
                 var retreivedFavorites = favorites
-                
                 switch actionType {
-                
+                 
                 case .add:
+                    
                     guard !retreivedFavorites.contains(favorite) else {
                         completed(.alreadyinFavorites)
                         return
