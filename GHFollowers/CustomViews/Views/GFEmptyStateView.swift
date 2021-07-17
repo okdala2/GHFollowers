@@ -28,9 +28,9 @@ class GFEmptyStateView: UIView {
     
     
     func configure() {
-        addSubview(messageLabel)
-        addSubview(logoImageView)
-                
+        
+        addsubviews(messageLabel, logoImageView)
+
         messageLabel.numberOfLines = 3
         messageLabel.textColor = .label
         
